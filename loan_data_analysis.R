@@ -158,7 +158,7 @@ box_plot <- ggplot(test_data, aes(factor(loan_performance), predicted_prob)) + g
 
 ggsave("./output/box_pred_prob.png", box_plot, width = 6, height = 5)
 
-# not the end
+# this is a change in branch bug-fix-1.
 
 # The End.
 
